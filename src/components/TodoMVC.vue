@@ -84,10 +84,17 @@ export default {
 
 <style scoped>
   .todomvc {
+    text-align: left;
     width: 500px;
     margin: auto;
   }
   header {
     text-align: center;
+  }
+  .filters,
+  .todo-list {
+    margin: 0 0 10px 0;
+    padding: 0;
+    list-style: none;
   }
 </style>

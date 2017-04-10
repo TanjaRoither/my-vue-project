@@ -19,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -27,5 +27,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li {
+    display: inline-block;
+  }
 }
 </style>
