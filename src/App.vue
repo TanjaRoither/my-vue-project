@@ -4,6 +4,7 @@
       <ul>
         <li><router-link to="/">Home</router-link></li>
         <li><router-link to="/foo">Foo</router-link></li>
+        <li><router-link to="/steps">Steps</router-link></li>
         <li><router-link to="/todoapp">Todo App</router-link></li>
         <li><router-link to="/todox">Todo with VueX</router-link></li>
 
